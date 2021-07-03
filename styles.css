@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: wheat;
     margin: 0px;
     padding: 0px;
 }
@@ -11,13 +11,13 @@ ul{
   position: absolute;
   width: 100%;
   height: auto;
-  background-color: dodgerblue;
+  background-color: gray;
 }
 .menu li{
   list-style: none;
   width: 145px;
   height: 35px;
-  background-color: #2196f3;
+  background-color: gray;
   margin-left: 40px;
   text-align: centre;
   line-height: 50px;
@@ -42,7 +42,7 @@ ul{
 }
 .logo_li a{
   font-size: 30px;
-  background-color: orangered ;
+  background-color: ;
 }
 .menu ul li{
   margin: 0px;
@@ -76,13 +76,22 @@ ul{
       }
          .div_section1{
            width: 20%;
-           height: 300px;
+           height: 400px;
            margin: 10px;
-           border: 1px solid gray;
+           float: left;
        }
        .icon{
          width: 120px;
          height: 120px;
-         border: 1px solid gray;
          line-height: 120px;
+         margin: 10px auto;
+         border: 1px solid gray;
+         font-size: 50px;
+         background-color: darkred;
+         color: white;
+         border-radius: 100px;
+         transition-duration: 0.3s;
        }
+        .icon:hover{
+           font-size: 40px;
+        }
